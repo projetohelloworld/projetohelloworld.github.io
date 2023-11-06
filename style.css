@@ -1,0 +1,127 @@
+*{/*Classe Universal para definir a margin de toda a página*/
+    margin: 0;
+}
+
+body{/*Classe para definir o plano de fundo do site e a altura de um elemento*/
+    background: url('imagens/body/fundosite.svg') no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.menu{/*Classe Menu usada para definir o layout do cabeçalho*/
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item:hover a {/*Classe para alterar a cor do texto quando o mouse passar por cima */
+    color: black; 
+}
+
+li{/*Classe para definir o espaçamentos entre os itens do cabeçalho*/
+    margin-right: 50px;
+}
+
+a{/*Classe para definir a cor do texto no cabeçalho*/
+    color: white;
+}
+
+.item {/*Classe para definir os ícones do menu*/
+    display: flex;
+    align-items: center;
+}
+
+.item img { /*Definir espaçamento do texto para os ícones do menu*/
+    margin-right: 15px;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+    color: white; 
+    text-align: justify; 
+    padding: 50px;
+    margin-right: 20px;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    color: white; 
+    text-align: justify; 
+    padding: 10px; 
+    margin-right: 20px;
+}
+
+.textoconteudo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+    color: white; 
+    text-align: justify; 
+    padding: 10px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #252831;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.footer-content {
+    max-width: auto;
+    margin: 0;
+    text-align: center;
+}
+
+.layoutwhitebox {
+    background-color: transparent;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align: justify;
+    margin: 0 auto; 
+}
+
+.layouttextbox {
+    background-color: transparent;
+    width: 1000px;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px; 
+}
+
+.lista{
+    color: white;
+    float: left;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .layoutwhitebox {
+      width: 90%;
+    }
+  
+    .texto {
+      font-size: 18px; 
+      margin: 10px;
+    }
+    
+   
+  }
