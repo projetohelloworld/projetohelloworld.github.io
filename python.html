@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python</title>
+
+    <!--GOOGLE FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <!--GOOGLE FONTES-->
+
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--BOOTSTRAP ICONS-->
+
+    <script src="menu.js" defer></script>
+    <link rel="shortcut icon" href="images/geral/logo_titulo.ico" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css  ">
 </head>
+
 <body>
-    
+    <header>
+        <div class="interface">
+            <nav class="menu-desktop">
+                <ul>
+                    <li"><img class="img-cabecalho" src="images/cabecalho/home.png" alt=""><a href="index.html">Home</a></li>
+                        <li><img class="img-cabecalho" src="images/cabecalho/python.png" alt=""><a href="python.html">Python</a>
+                        </li>
+                        <!--<li><img class="img-cabecalho" src="images/cabecalho/grupo.png" alt=""><a href="grupo.html">Grupo</a>
+                        </li>-->
+                        <li><img class="img-cabecalho" src="images/cabecalho/material.png" alt=""><a href="material.html">Material
+                                de Apoio</a></li>
+                        <li><img class="img-cabecalho" src="images/cabecalho/feedback.png" alt=""><a
+                                href="https://docs.google.com/forms/d/1VNUUBgcCIve15xUivO0OyLQGG7VTTtuKnyCwcyoWejE/viewform?edit_requested=true"
+                                target="_blank">Feedback</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+
+                        <!--<li"><a href="#">Home</a></li>-->
+
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Python</a></li>
+                        <!--<li><a href="#">Grupo</a> </li>-->
+                        <li><a href="#">Material de Apoio</a></li>
+                        <li><a href="https://docs.google.com/forms/d/1VNUUBgcCIve15xUivO0OyLQGG7VTTtuKnyCwcyoWejE/viewform?edit_requested=true"
+                                target="_blank">Feedback</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-do-site">
+                        <h1>Bem-vindo à página Python</span></h1>
+                        <p>Nesta página, iremos falar um pouco sobre o que é a linguagem Python, como ela surgiu, quais
+                            os recursos que ela oferece e exemplos de aplicações com esta linguagem.</p>
+                    </div><!--txt-top-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-do-site">
+                        <h1>O que é Python?</span></h1>
+                        <p>Python é uma linguagem de programação de alto nível e fácil aprendizado, criada para ser
+                            legível e versátil. Destaca-se por sua sintaxe clara, ampla biblioteca padrão e comunidade
+                            ativa. Utilizada em diversos campos, desde desenvolvimento web até inteligência artificial,
+                            Python é escolhida por sua simplicidade e eficiência, sendo adequada tanto para iniciantes
+                            quanto para desenvolvedores experientes.</p>
+                        <p>A imagem abaixo representa o logotipo da linguagem de programação Python, conhecido como o
+                            'logotipo de duas cobras'. Ele é composto por duas cobras entrelaçadas em azul e amarelo.
+                        </p>
+                    </div><!--txt-top-site-->
+                </div><!--flex-->
+                <div class="image-python-python">
+                    <img src="images/python/python.png" alt="">
+                </div><!--image-topo-site-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-do-site">
+                        <h1>História do Python</h1>
+
+                        <p>Python, uma linguagem de programação de alto nível, foi concebida por Guido van Rossum no
+                            final dos anos 1980. O desenvolvimento oficial começou em dezembro de 1989 durante as férias
+                            de Natal. O nome "Python" foi inspirado na série de comédia britânica "Monty Python's Flying
+                            Circus", refletindo a abordagem leve e humorística desejada pelo criador.</p>
+
+                        <p>A primeira versão pública, Python 0.9.0, foi lançada em fevereiro de 1991. Desde então,
+                            Python passou por várias evoluções, destacando-se o lançamento do Python 2.0 em 2000, que
+                            trouxe suporte completo para programação orientada a objetos. Em 2008, a transição para o
+                            Python 3.0 introduziu melhorias significativas e correções de design.</p>
+
+                        <p>Python ganhou destaque em diversas áreas, incluindo desenvolvimento web, automação, ciência
+                            de dados e inteligência artificial. Sua sintaxe clara, legibilidade e filosofia de "Zen do
+                            Python" contribuíram para torná-lo uma escolha popular entre desenvolvedores em todo o
+                            mundo.</p>
+
+                        <p>Atualmente, a comunidade Python é ativa e expansiva, com contribuições para bibliotecas e
+                            frameworks. A Python Software Foundation (PSF) foi estabelecida para promover, desenvolver e
+                            sustentar a linguagem. Com uma história rica e contínua evolução, Python permanece como uma
+                            das linguagens de programação mais populares e influentes globalmente.</p>
+                        <p>Abaixo, a imagem do criador da linguagem de programação Python Guido van Rossum.</p>
+                    </div><!--txt-top-site-->
+                </div><!--flex-->
+                <div class="image-python-python">
+                    <img src="images/python/guido.png" alt="">
+                </div><!--image-topo-site-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-do-site">
+                        <h1>Por que Escolher Python?</h1>
+                        <p>Python é uma escolha excepcional para desenvolvedores por diversas razões convincentes. Sua
+                            popularidade e versatilidade fazem dela uma linguagem única no mundo da programação.</p>
+                        <p><strong>1. Sintaxe Clara e Legível:</strong> Python destaca-se pela sua sintaxe clara e
+                            legível, tornando o código mais compreensível. Isso facilita o desenvolvimento, manutenção e
+                            colaboração em projetos.</p>
+                        <p><strong>2. Versatilidade em Aplicações:</strong> Python é uma linguagem extremamente
+                            versátil, adequada para uma ampla gama de aplicações. Seja desenvolvimento web, análise de
+                            dados, automação, aprendizado de máquina ou inteligência artificial, Python brilha em vários
+                            domínios.</p>
+                        <p><strong>3. Bibliotecas e Frameworks Poderosos:</strong> A vasta biblioteca padrão e os
+                            frameworks populares, como Django, Flask, TensorFlow e PyTorch, proporcionam aos
+                            desenvolvedores ferramentas poderosas para construir aplicações eficientes e inovadoras.</p>
+                        <p><strong>4. Comunidade Ativa e Solidária:</strong> A comunidade Python é conhecida por ser
+                            acolhedora e ativa. Desenvolvedores de todos os níveis encontram suporte, recursos
+                            educacionais e colaboração em uma comunidade global engajada.</p>
+                        <p><strong>5. Desenvolvimento Rápido e Produtivo:</strong> Python é famoso pelo desenvolvimento
+                            rápido de protótipos. Sua sintaxe concisa permite que os desenvolvedores expressem ideias
+                            com menos linhas de código, acelerando o processo de desenvolvimento.</p>
+                        <p><strong>6. Adoção Global e Demanda no Mercado:</strong> Python é amplamente adotado por
+                            empresas de todos os tamanhos e setores. A demanda por desenvolvedores Python no mercado de
+                            trabalho é alta, proporcionando oportunidades significativas de carreira.</p>
+                        <p><strong>7. Apoio à Ciência de Dados e Aprendizado de Máquina:</strong> Python se destaca na
+                            comunidade de ciência de dados e aprendizado de máquina, com bibliotecas como NumPy, pandas,
+                            scikit-learn, TensorFlow e PyTorch, oferecendo suporte robusto para essas áreas em rápido
+                            crescimento.</p>
+                        <p>Ao escolher Python, os desenvolvedores beneficiam-se de uma linguagem poderosa, acessível e
+                            em constante evolução, capaz de enfrentar os desafios variados do mundo da programação.</p>
+                        <p>E para finalizar, abaixo temos uma das imagens do elenco da série que inspirou uma das linguagens mais populares do mundo.</p>
+                    </div><!--txt-top-site-->
+                </div><!--flex-->
+                <div class="image-python-python">
+                    <img src="images/python/monty.png" alt="">
+                </div><!--image-topo-site-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+    </main>
+
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <p class="hw"><a href="mailto:projetohelloworld2023@gmail.com">projetohelloworld2023@gmail.com</a></p>
+                <p class="hw">&copy; Hello World Company</p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
 </body>
+
 </html>
