@@ -223,6 +223,47 @@ footer .line-footer p a {
     text-align: center;
     color: #fff;
 }
+/* ESTILIZAÇÃO PYTHON */
+section.topo-do-site .txt-topo-do-site h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+section.topo-do-site .txt-topo-do-site p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.topo-do-site .image-python-python {
+    text-align: center;
+}
+
+.topo-do-site .image-python-python img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* ESTILIZAÇÃO MATERIAL DE APOIO */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 (altere conforme necessário) */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.topo-do-site a {
+    color: #fff;
+}
 
 @media screen and (max-width: 1020px) {
     /* ESTILOS GERAIS */
